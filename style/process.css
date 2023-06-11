@@ -1,0 +1,157 @@
+/* Section offset  */
+
+.process {
+    margin-bottom: 140px;
+}
+
+
+/* Section - desc  */
+
+.process__desc {
+    max-width: 292px;
+}
+
+
+/* Accordion - body  */
+
+.process__accordion {
+    margin-bottom: 10px;
+    background: #F3F3F3;
+    box-shadow: 0px 5px 0px #191A23;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    position: relative;
+
+}
+
+.process__accordion_list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.process__accordion_list .clicked {
+    background: var(--green);
+}
+
+/* Accordion - Button  */
+
+.process__accordion_control {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 41px 60px;
+    width: 100%;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.process__accordion_control::-webkit-details-marker {
+    display: none;
+}
+
+
+/* Accordion - text  */
+
+.process__accordion_text {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.process__accordion_number {
+    font-family: var(--SM);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    color: var(--black);
+}
+
+.process__accordion_title {
+    font-family: var(--SM);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--black);
+}
+
+.open .process__accordion_content {
+    opacity: 1;
+    padding: 41px 60px;
+}
+
+
+/* Accordion - icon  */
+
+.process__accordion_icon {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    border-radius: 100%;
+    border: 1px solid #191A23;
+    transition: transform 0.3s ease-out;
+
+}
+
+.open .process__accordion_icon {
+    background: var(--grey);
+}
+
+.process__accordion_icon::after {
+    content: "\002B";
+    position: absolute;
+    font-size: 3rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.open .process__accordion_icon.active::after {
+    content: "\2212";
+    font-size: 3rem;
+}
+
+
+
+/* Accordion - text - open  */
+
+.process__accordion_content {
+    padding: 20px;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0 60px;
+    will-change: max-height;
+    transition: all 0.3s ease-out;
+    box-sizing: content-box;
+    position: relative;
+    transition: 0.5s;
+
+}
+
+.process__accordion_content-text {
+    font-family: var(--SR);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--black);
+    max-width: 1020px;
+}
+
+.open .process__accordion_content::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 1114px;
+    height: 1px;
+    background-color: #000;
+    transform: translate(-50%, -50%);
+}

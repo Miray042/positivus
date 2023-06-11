@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'SB';
+    src: url('../fonts/SpaceGrotesk-Bold.ttf') format('truetype');
+         
+}
+
+@font-face {
+    font-family: 'SM';
+    src: url('../fonts/SpaceGrotesk-Medium.ttf') format('truetype');
+         
+}
+
+@font-face {
+    font-family: 'SS';
+    src: url('../fonts/SpaceGrotesk-SemiBold.ttf') format('truetype');
+         
+}
+
+
+@font-face {
+    font-family: 'SR';
+    src: url('../fonts/SpaceGrotesk-Regular.ttf') format('truetype');
+         
+}
+
+
+

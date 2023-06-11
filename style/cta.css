@@ -1,0 +1,44 @@
+.cta {
+    margin-bottom: 140px;
+}
+
+
+.cta__wrapper {
+    background: var(--grey);
+    border-radius: 45px;
+    padding: 60px 0 60px 60px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.cta__img {
+    position: absolute;
+    right: 135px;
+    
+}
+
+.cta__text {
+    max-width: 500px;
+}
+
+.cta__title {
+    font-family: var(--SM);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--black);
+    margin-bottom: 26px;
+}
+
+.cta__desc {
+    font-family: var(--SR);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--black);
+    margin-bottom: 26px;
+}

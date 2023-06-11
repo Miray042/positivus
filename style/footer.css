@@ -1,0 +1,150 @@
+.footer__wrapper {
+    background: var(--dark);
+    padding: 50px 60px;
+    border-radius: 45px 45px 0px 0px;
+}
+
+/* Footer - menu  */
+
+/* Footer - top  */
+
+.footer__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 66px;
+}
+
+.footer__nav_list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer__nav_list-item a {
+    font-family: var(--SR);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--white);
+    transition: 0.3s;
+}
+
+
+.footer__nav_list-item a:hover {
+    text-decoration-line: underline;
+
+}
+
+.footer__icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* Footer - content  */
+
+.footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__content_text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer__title {
+    font-family: var(--SM);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--black);
+    border-radius: 7px;
+
+}
+
+.footer__desc {
+    font-family: var(--SR);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--white);
+}
+
+.footer__content_desc {
+    max-width: 332px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Form - footer content  */
+.footer__content {
+    border-bottom: 1px solid var(--white);
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+
+.footer__form {
+    background: var(--dark2);
+    padding: 58px 40px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer__input {
+    border: 1px solid var(--white);
+    border-radius: 14px;
+    font-family: var(--SR);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    outline: none;
+    color: var(--white);
+    padding: 22px 35px;
+    background: var(--dark2);
+}
+
+.footer__input::placeholder {
+    color: var(--white);
+}
+
+.footer__btn {
+    font-family: var(--SR);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: var(--black);
+    background: var(--green);
+}
+
+
+/* Footer - bottom  */
+
+.footer__bottom {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer__bottom_desc {
+    font-family: var(--SR);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--white);
+}
+
+.footer__bottom_link:hover {
+    text-decoration-line: underline;
+
+}
